@@ -27,4 +27,4 @@ PRODUCT_COPY_FILES := \
 # Pick up overlay for features that depend on non-open-source files
 DEVICE_PACKAGE_OVERLAYS := vendor/samsung/common/overlay
 
-$(call inherit-product, vendor/samsung/common/device-vendor-blobs.mk)
+$(call inherit-product, vendor/samsung/common/aries/device-vendor-blobs.mk)
