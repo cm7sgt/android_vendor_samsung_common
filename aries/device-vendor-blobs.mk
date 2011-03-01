@@ -25,6 +25,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/common/aries/proprietary/gps.xml:system/vendor/etc/gps.xml \
     vendor/samsung/common/aries/proprietary/bcm4329.hcd:system/vendor/firmware/bcm4329.hcd \
     vendor/samsung/common/aries/proprietary/nvram_net.txt:system/vendor/firmware/nvram_net.txt \
+    vendor/samsung/common/aries/proprietary/cypress-touchkey.bin:system/vendor/firmware/cypress-touchkey.bin \
     vendor/samsung/common/aries/proprietary/samsung_mfc_fw.bin:system/vendor/firmware/samsung_mfc_fw.bin \
     vendor/samsung/common/aries/proprietary/libEGL_POWERVR_SGX540_120.so:system/vendor/lib/egl/libEGL_POWERVR_SGX540_120.so \
     vendor/samsung/common/aries/proprietary/libGLESv1_CM_POWERVR_SGX540_120.so:system/vendor/lib/egl/libGLESv1_CM_POWERVR_SGX540_120.so \
