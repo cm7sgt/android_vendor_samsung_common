@@ -12,13 +12,14 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# Live wallpaper packages
+# Live wallpaper packages and Themes
 PRODUCT_PACKAGES := \
     LiveWallpapers \
     LiveWallpapersPicker \
     MagicSmokeWallpapers \
     VisualizationWallpapers \
-    librs_jni
+    librs_jni \
+    SGSTheme
 
 # Publish that we support the live wallpaper feature.
 PRODUCT_COPY_FILES := \
