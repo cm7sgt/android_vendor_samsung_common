@@ -137,5 +137,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/common/GT-P1000/proprietary/lpm/battery_charging_100.qmg:system/media/battery_charging_100.qmg \
     vendor/samsung/common/GT-P1000/proprietary/lpm/chargingwarning_disconnected.qmg:system/media/chargingwarning_disconnected.qmg \
     vendor/samsung/common/GT-P1000/proprietary/lpm/chargingwarning_temp.qmg:system/media/chargingwarning_temp.qmg \
-    vendor/samsung/common/GT-P1000/proprietary/lpm/usb_not_charging.qmg:system/media/usb_not_charging.qmg
+    vendor/samsung/common/GT-P1000/proprietary/lpm/usb_not_charging.qmg:system/media/usb_not_charging.qmg \
+    vendor/samsung/common/GT-P1000/proprietary/lpm/immvibed:system/bin/immvibed
 
