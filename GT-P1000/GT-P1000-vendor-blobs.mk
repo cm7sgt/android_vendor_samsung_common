@@ -108,3 +108,34 @@ PRODUCT_COPY_FILES += \
 #
 PRODUCT_COPY_FILES += vendor/samsung/common/GT-P1000/proprietary/other/copybit.s5pc110.so:system/lib/hw/copybit.s5pc110.so
 
+#
+# Files for battery charging screen
+#
+PRODUCT_COPY_FILES += \
+    vendor/samsung/common/GT-P1000/proprietary/lpm/playlpm:system/bin/playlpm \
+    vendor/samsung/common/GT-P1000/proprietary/lpm/charging_mode:system/bin/charging_mode \
+    vendor/samsung/common/GT-P1000/proprietary/lpm/libQmageDecoder.so:system/lib/libQmageDecoder.so \
+    vendor/samsung/common/GT-P1000/proprietary/lpm/battery_charging_5.qmg:system/media/battery_charging_5.qmg \
+    vendor/samsung/common/GT-P1000/proprietary/lpm/battery_charging_10.qmg:system/media/battery_charging_10.qmg \
+    vendor/samsung/common/GT-P1000/proprietary/lpm/battery_charging_15.qmg:system/media/battery_charging_15.qmg \
+    vendor/samsung/common/GT-P1000/proprietary/lpm/battery_charging_20.qmg:system/media/battery_charging_20.qmg \
+    vendor/samsung/common/GT-P1000/proprietary/lpm/battery_charging_25.qmg:system/media/battery_charging_25.qmg \
+    vendor/samsung/common/GT-P1000/proprietary/lpm/battery_charging_30.qmg:system/media/battery_charging_30.qmg \
+    vendor/samsung/common/GT-P1000/proprietary/lpm/battery_charging_35.qmg:system/media/battery_charging_35.qmg \
+    vendor/samsung/common/GT-P1000/proprietary/lpm/battery_charging_40.qmg:system/media/battery_charging_40.qmg \
+    vendor/samsung/common/GT-P1000/proprietary/lpm/battery_charging_45.qmg:system/media/battery_charging_45.qmg \
+    vendor/samsung/common/GT-P1000/proprietary/lpm/battery_charging_50.qmg:system/media/battery_charging_50.qmg \
+    vendor/samsung/common/GT-P1000/proprietary/lpm/battery_charging_55.qmg:system/media/battery_charging_55.qmg \
+    vendor/samsung/common/GT-P1000/proprietary/lpm/battery_charging_60.qmg:system/media/battery_charging_60.qmg \
+    vendor/samsung/common/GT-P1000/proprietary/lpm/battery_charging_65.qmg:system/media/battery_charging_65.qmg \
+    vendor/samsung/common/GT-P1000/proprietary/lpm/battery_charging_70.qmg:system/media/battery_charging_70.qmg \
+    vendor/samsung/common/GT-P1000/proprietary/lpm/battery_charging_75.qmg:system/media/battery_charging_75.qmg \
+    vendor/samsung/common/GT-P1000/proprietary/lpm/battery_charging_80.qmg:system/media/battery_charging_80.qmg \
+    vendor/samsung/common/GT-P1000/proprietary/lpm/battery_charging_85.qmg:system/media/battery_charging_85.qmg \
+    vendor/samsung/common/GT-P1000/proprietary/lpm/battery_charging_90.qmg:system/media/battery_charging_90.qmg \
+    vendor/samsung/common/GT-P1000/proprietary/lpm/battery_charging_95.qmg:system/media/battery_charging_95.qmg \
+    vendor/samsung/common/GT-P1000/proprietary/lpm/battery_charging_100.qmg:system/media/battery_charging_100.qmg \
+    vendor/samsung/common/GT-P1000/proprietary/lpm/chargingwarning_disconnected.qmg:system/media/chargingwarning_disconnected.qmg \
+    vendor/samsung/common/GT-P1000/proprietary/lpm/chargingwarning_temp.qmg:system/media/chargingwarning_temp.qmg \
+    vendor/samsung/common/GT-P1000/proprietary/lpm/usb_not_charging.qmg:system/media/usb_not_charging.qmg
+
