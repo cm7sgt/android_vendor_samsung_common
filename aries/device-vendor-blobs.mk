@@ -27,6 +27,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/common/aries/proprietary/nvram_net.txt:system/vendor/firmware/nvram_net.txt \
     vendor/samsung/common/aries/proprietary/cypress-touchkey.bin:system/vendor/firmware/cypress-touchkey.bin \
     vendor/samsung/common/aries/proprietary/samsung_mfc_fw.bin:system/vendor/firmware/samsung_mfc_fw.bin \
+    vendor/samsung/common/aries/proprietary/libGLES_android.so:system/lib/egl/libGLES_android.so \
     vendor/samsung/common/aries/proprietary/libEGL_POWERVR_SGX540_120.so:system/vendor/lib/egl/libEGL_POWERVR_SGX540_120.so \
     vendor/samsung/common/aries/proprietary/libGLESv1_CM_POWERVR_SGX540_120.so:system/vendor/lib/egl/libGLESv1_CM_POWERVR_SGX540_120.so \
     vendor/samsung/common/aries/proprietary/libGLESv2_POWERVR_SGX540_120.so:system/vendor/lib/egl/libGLESv2_POWERVR_SGX540_120.so \
