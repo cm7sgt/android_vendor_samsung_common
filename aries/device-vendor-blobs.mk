@@ -43,7 +43,11 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/common/aries/proprietary/libsrv_init.so:system/vendor/lib/libsrv_init.so \
     vendor/samsung/common/aries/proprietary/libsrv_um.so:system/vendor/lib/libsrv_um.so \
     vendor/samsung/common/aries/proprietary/CE147F02.bin:system/vendor/firmware/CE147F02.bin \
-    vendor/samsung/common/aries/proprietary/libusc.so:system/vendor/lib/libusc.so
-    
+    vendor/samsung/common/aries/proprietary/libusc.so:system/vendor/lib/libusc.so \
+    vendor/samsung/common/aries/proprietary/libsensor_yamaha_test.so:system/vendor/lib/libsensor_yamaha_test.so \
+    vendor/samsung/common/aries/proprietary/libsensorservice.so:system/vendor/lib/libsensorservice.so \
+    vendor/samsung/common/aries/proprietary/orientationd:system/vendor/bin/orientationd \
+    vendor/samsung/common/aries/proprietary/geomagneticd:system/vendor/bin/geomagneticd \
+    vendor/samsung/common/aries/proprietary/sensors.aries.so:system/lib/hw/sensors.aries.so
     
     
